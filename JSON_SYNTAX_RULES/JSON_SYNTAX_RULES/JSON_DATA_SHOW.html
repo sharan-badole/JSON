@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>JSON DATA</title>
+    <script>
+        // We are creating the json object with single object data and showing on ui
+        var obj = {
+            "name": "Ram",
+            "age": 24
+        };
+        // Showing the name of object
+        document.write(obj.name+"  ");
+        document.write(obj["age"]+" </br> ");
+        // Modifying the data
+        obj.name = "Raju";
+        document.write(obj["name"]+"  ");
+        obj["age"] = 30;
+        document.write(obj.age + " </br> ");
+
+        // We are creating the json object of array data and showing on ui
+
+        var obj = {
+            "students": [
+                { "Id":11, "Name": "Sham", "Age": 24 },
+                { "Id":22, "Name": "Ram", "Age": 23 },
+                { "Id":33, "Name": "Raj", "Age": 25 }]
+        };
+
+        // Showing the json data on UI
+
+        document.write(obj.students[0].Id + "  ");
+        document.write(obj.students[0].Name + "  ");
+        document.write(obj.students[0].Age + "</br>");
+
+
+        document.write(obj.students[1].Id + "  ");
+        document.write(obj.students[1].Name + "  ");
+        document.write(obj.students[1].Age + "</br>");
+
+        document.write(obj.students[2].Id + "  ");
+        document.write(obj.students[2].Name + "  ");
+        document.write(obj.students[2].Age + "</br>");
+
+        // Showing the json data on UI using foreach loop
+
+        // We are declaring one more Json object
+        var obj = {
+            "Name": "Sham",
+            "Age": 24,
+            "Hobbies": ["Cricket", "Football", "Reading"],
+            "isSmart": true,
+            "fobia": null,
+            "Relatives": {
+                "Brother": "Ram",
+                "Uncle": "Raju",
+                "Counsin": "Raj"
+            }
+        }
+
+        // Fetching the above data
+        document.write(obj.Name+"</br>");
+        document.write(obj.Hobbies[0] + "</br>");
+        document.write(obj.Relatives["Brother"]+"</br>");
+
+
+        // Accessing the data using loops
+        var obj1 = {
+            "Name": "Rock",
+            "Age": 5,
+            "Gender": "Male"
+        };
+        for (key in obj1) {
+            document.write(obj1[key]+"</br>");
+        }
+
+        var obj2 = {
+            Hobbies: ["Cricket", "Football", "Chess"]
+        };
+        for (idx in obj2.Hobbies) {
+            document.write(obj2.Hobbies[idx] + "</br>");
+        }
+
+        for (var i = 0; i < obj2.Hobbies.length; i++) {
+            document.write(obj2.Hobbies[i] + "</br>");
+        }
+
+        var obj3 = {
+            "students": [
+                { "Name": "Sunny", "Age": 22, "Gender": "Male" },
+                { "Name": "Bunny", "Age": 42, "Gender": "Male" },
+                { "Name": "Jimmy", "Age": 32, "Gender": "Female" } 
+            ]
+        };
+
+        for (idx in obj3.students) {
+            for (key in obj3.students[idx]) {
+                document.write(obj3.students[idx][key] + "</br>");
+            }
+        }
+
+        // JSON.stringify(object)  - It converts object into string which we can show on ui
+        // bcoz ui only understand string value and json is text file if we convert it into string we can use that to show on ui
+
+        var obj4 = {
+            "Name": "Ram",
+            "Age": 14,
+            "Gender": "Male"
+        }
+        
+        //document.write(obj4);
+        //It will not shows the answer bcoz server accepts only string values, so the current mode is object,
+        //so first we convert it into string then we will get correct output on server side
+        var string_obj4 = JSON.stringify(obj4);
+        document.write(string_obj4);
+
+        var string_obj5 = '{"Name":"Roy","Age":22,"Gender":"Male"}';
+        //document.write(string_obj5.Name);
+        //We can't fetch the data from string , so first we have to convert the string format into js object and
+        //then we can access the key values (data comes from server in string so we have to first convet that into object then we can use)
+        var obj5 = JSON.parse(string_obj5);
+        document.write(obj5.Name);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

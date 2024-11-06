@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hp\\source\\repos\\JSON\\JSON_SYNTAX_RULES\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D5893E-6C89-4B1F-8166-DA0C3E56BDB3}|JSON_SYNTAX_RULES\\JSON_SYNTAX_RULES.csproj|c:\\users\\hp\\source\\repos\\json\\json_syntax_rules\\json_syntax_rules\\json_data_show.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9D5893E-6C89-4B1F-8166-DA0C3E56BDB3}|JSON_SYNTAX_RULES\\JSON_SYNTAX_RULES.csproj|solutionrelative:json_syntax_rules\\json_data_show.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9D5893E-6C89-4B1F-8166-DA0C3E56BDB3}|JSON_SYNTAX_RULES\\JSON_SYNTAX_RULES.csproj|c:\\users\\hp\\source\\repos\\json\\json_syntax_rules\\json_syntax_rules\\file.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9D5893E-6C89-4B1F-8166-DA0C3E56BDB3}|JSON_SYNTAX_RULES\\JSON_SYNTAX_RULES.csproj|solutionrelative:json_syntax_rules\\file.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "File.json",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\JSON\\JSON_SYNTAX_RULES\\JSON_SYNTAX_RULES\\File.json",
+              "RelativeDocumentMoniker": "JSON_SYNTAX_RULES\\File.json",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\JSON\\JSON_SYNTAX_RULES\\JSON_SYNTAX_RULES\\File.json",
+              "RelativeToolTip": "JSON_SYNTAX_RULES\\File.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-06T16:34:53.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JSON_DATA_SHOW.html",
+              "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\JSON\\JSON_SYNTAX_RULES\\JSON_SYNTAX_RULES\\JSON_DATA_SHOW.html",
+              "RelativeDocumentMoniker": "JSON_SYNTAX_RULES\\JSON_DATA_SHOW.html",
+              "ToolTip": "C:\\Users\\hp\\source\\repos\\JSON\\JSON_SYNTAX_RULES\\JSON_SYNTAX_RULES\\JSON_DATA_SHOW.html*",
+              "RelativeToolTip": "JSON_SYNTAX_RULES\\JSON_DATA_SHOW.html*",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAAHQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-06T16:33:30.185Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
